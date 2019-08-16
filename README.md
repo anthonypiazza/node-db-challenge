@@ -40,11 +40,24 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 - [ ] Explain the difference between `Relational Databases` and `SQL`.
 
+RD - is a type of database where tables can link to each other
+
+SQL - query language used to access the data in the tables inside the database
+
+
 - [ ] Why do tables need a `primary key`?
+
+It is a way of uniquely identifying every single entry in the database, assists with API data manipulation
+
 
 - [ ] What is the name given to a table column that references the primary key on another table.
 
+Foreign Key
+
 - [ ] What do we need in order to have a _many to many_ relationship between two tables.
+
+A third intermediary table with a primary key and two foreign keys from the two many-to-many tables
+
 
 ## Minimum Viable Product
 
